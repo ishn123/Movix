@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroBanner from './HeroBanner/heroBanner';
+import HeroBanner from './HeroBanner/HeroBanner';
 import Trending from './trending/Trending.jsx'
 import Popular from './popular/Popular';
 function Home() {
