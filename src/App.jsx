@@ -5,12 +5,12 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/home/Home'
-import SearchResult from './pages/searchResult/searchResult'
-import Header from './components/header/header'
-import Footer from './components/footer/footer'
-import Details from './pages/details/details'
+import SearchResult from './pages/searchResult/SearchResult'
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+import Details from './pages/details/Details'
 import Explore from './pages/explore/Explore';
-import PageNotFound from './pages/404/pageNotFound';
+import PageNotFound from './pages/404/PageNotFound';
 import { fetchDataApi } from './utils/api';
 import { getApiConfiguration, getGeneres } from './store/homeSlice';
 import { useEffect } from 'react';
