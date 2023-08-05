@@ -4,7 +4,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from './pages/home/home'
+import Home from './pages/home/Home'
 import SearchResult from './pages/searchResult/searchResult'
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
