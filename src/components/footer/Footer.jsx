@@ -1,8 +1,10 @@
 import React from 'react'
-import {FaFacebookF,FaInstagram,FaTwitter,FaLinkedin} from 'react-icons/fa'
+import {FaFacebookF,FaInstagram,FaTwitter,FaLinkedin, FaYoutube, FaCode} from 'react-icons/fa'
 import ContentWrapper from '../contentWrapper/ContentWrapper'
+
 import './style.scss'
 function Footer() {
+  
   return (
     <footer className="footer">
       <ContentWrapper>
@@ -14,25 +16,20 @@ function Footer() {
           <li className="menuItem">FAQ</li>
         </ul>
         <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+        Indulge in a world of entertainment like never before with Movix, the pinnacle of video streaming platforms. Seamlessly designed and meticulously crafted by Ishan Arora © Movix is your gateway to a universe of captivating movies and TV shows, curated to cater to your every entertainment whim.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <FaFacebookF />
+                        <a href='https://www.youtube.com/@tier3vale'><FaYoutube /></a>
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                        <a href='https://www.instagram.com/ishn__/'><FaInstagram /></a>
                     </span>
                     <span className="icon">
-                        <FaTwitter />
+                        <a href='https://leetcode.com/aroraishan51/'><FaCode /></a>
                     </span>
                     <span className="icon">
-                        <FaLinkedin />
+                        <a href='https://www.linkedin.com/in/ishan-arora-2000/'><FaLinkedin/></a>
                     </span>
                 </div>
       </ContentWrapper>

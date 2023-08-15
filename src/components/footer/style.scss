@@ -44,6 +44,9 @@
             margin-bottom: 30px;
         }
     }
+    a, a:visited, a:hover, a:active {
+        color: inherit;
+      }
     .socialIcons {
         display: flex;
         align-items: center;
@@ -65,4 +68,5 @@
             }
         }
     }
+    
 }

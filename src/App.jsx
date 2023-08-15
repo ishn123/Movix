@@ -1,8 +1,6 @@
 import { useState} from 'react';
 import {useDispatch} from 'react-redux'
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/home/Home'
 import SearchResult from './pages/searchResult/SearchResult'
@@ -16,9 +14,8 @@ import { getApiConfiguration, getGeneres } from './store/homeSlice';
 import { useEffect } from 'react';
 
 function App({store:Store}) {
-  const dispatch = useDispatch();
+   const dispatch = useDispatch();
   const fecthApiConfig = ()=>{
-
     fetchDataApi('/configuration')
     .then(res=>{
       console.log(res);
